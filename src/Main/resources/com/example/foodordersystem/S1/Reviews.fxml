@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="638.0" prefWidth="950.0" styleClass="background-secondary-header" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" layoutX="1.0" prefHeight="152.0" prefWidth="950.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="119.0" prefWidth="379.0" styleClass="text" text="My Reviews" textFill="#fee715">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="53.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </HBox>
+      <HBox layoutY="152.0" prefHeight="486.0" prefWidth="951.0" style="-fx-background-color: #222222;">
+         <children>
+            <ScrollPane id="paymentDetails" fx:id="resturantScroll" fitToWidth="true" hbarPolicy="NEVER" prefHeight="486.0" prefWidth="993.0" style="-fx-border-width: 2 0 2 0;">
+               <content>
+                  <VBox prefHeight="1070.0" prefWidth="932.0" spacing="20.0" styleClass="background-secondary">
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

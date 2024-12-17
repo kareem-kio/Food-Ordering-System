@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" styleClass="background-secondary" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodordersystem.UserProfileController">
+   <children>
+      <BorderPane prefHeight="700.0" prefWidth="1200.0" stylesheets="@../style.css">
+         <left>
+            <VBox prefHeight="700.0" prefWidth="289.0" styleClass="background-primary" stylesheets="@../style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="userPic">
+                           <VBox.margin>
+                              <Insets top="50.0" />
+                           </VBox.margin>
+                           <image>
+                              <Image url="@../../../../images/user.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="nameField" text="Guest" textAlignment="CENTER" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Webdings" size="29.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="15.0" styleClass="background-secondary" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="702.0" prefWidth="911.0">
+                     <children>
+                        <HBox id="topPanel" alignment="CENTER" prefHeight="171.0" prefWidth="911.0">
+                           <padding>
+                              <Insets top="20.0" />
+                           </padding>
+                           <children>
+                              <Label id="0" prefHeight="0.0" prefWidth="369.0" styleClass="text" text="User Information" textFill="#f3a024">
+                                 <font>
+                                    <Font name="Arial Bold" size="46.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="272.0" prefWidth="911.0" spacing="33.0">
+                           <children>
+                              <VBox prefHeight="79.0" prefWidth="911.0" spacing="6.0">
+                                 <children>
+                                    <Label styleClass="text" text="User Name" textFill="#f3a024">
+                                       <font>
+                                          <Font name="Webdings" size="29.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="usernameField" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="500.0" style="-fx-background-radius: 20; -fx-text-fill: white;" styleClass="textField" text="user" textFill="WHITE">
+                                       <padding>
+                                          <Insets right="100.0" />
+                                       </padding>
+                                       <font>
+                                          <Font name="Webdings" size="21.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets left="100.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="79.0" prefWidth="911.0" spacing="6.0">
+                                 <children>
+                                    <Label styleClass="text" text="Password" textFill="#f3a024">
+                                       <font>
+                                          <Font name="Webdings" size="29.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="passwordField" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="500.0" style="-fx-background-radius: 20; -fx-text-fill: white;" styleClass="textField" text="password" textFill="WHITE">
+                                       <padding>
+                                          <Insets right="100.0" />
+                                       </padding>
+                                       <font>
+                                          <Font name="Webdings" size="21.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets left="100.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="79.0" prefWidth="911.0" spacing="6.0">
+                                 <children>
+                                    <Label styleClass="text" text="Email" textFill="#f3a024">
+                                       <font>
+                                          <Font name="Webdings" size="29.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="emailField" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="500.0" style="-fx-background-radius: 20; -fx-text-fill: white;" styleClass="textField" text="Email" textFill="WHITE">
+                                       <padding>
+                                          <Insets right="100.0" />
+                                       </padding>
+                                       <font>
+                                          <Font name="Webdings" size="21.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets left="100.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="79.0" prefWidth="911.0" spacing="6.0">
+                                 <children>
+                                    <Label styleClass="text" text="Address" textFill="#f3a024">
+                                       <font>
+                                          <Font name="Webdings" size="29.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="addressField" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="500.0" style="-fx-background-radius: 20; -fx-text-fill: white;" styleClass="textField" text="address" textFill="WHITE">
+                                       <padding>
+                                          <Insets right="100.0" />
+                                       </padding>
+                                       <font>
+                                          <Font name="Webdings" size="21.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets left="100.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox prefHeight="79.0" prefWidth="911.0" spacing="6.0">
+                                 <children>
+                                    <Label styleClass="text" text="Phone" textFill="#f3a024">
+                                       <font>
+                                          <Font name="Webdings" size="29.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="phoneField" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="500.0" style="-fx-background-radius: 20; -fx-text-fill: white;" styleClass="textField" text="phone" textFill="WHITE">
+                                       <padding>
+                                          <Insets right="100.0" />
+                                       </padding>
+                                       <font>
+                                          <Font name="Webdings" size="21.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets left="100.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets left="12.0" top="30.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="159.0" prefWidth="911.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.geometry.Insets?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.control.ScrollPane?>-->
+<!--<?import javafx.scene.layout.AnchorPane?>-->
+<!--<?import javafx.scene.layout.HBox?>-->
+<!--<?import javafx.scene.layout.VBox?>-->
+<!--<?import javafx.scene.text.Font?>-->
+
+<!--<AnchorPane prefHeight="638.0" prefWidth="950.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodordersystem.HelloController">-->
+<!--   <children>-->
+<!--      <VBox prefHeight="638.0" prefWidth="950.0">-->
+<!--         <children>-->
+<!--            <Label text="Resturants" translateX="25.0">-->
+<!--               <font>-->
+<!--                  <Font name="Calibri" size="50.0" />-->
+<!--               </font>-->
+<!--               <VBox.margin>-->
+<!--                  <Insets left="5.0" top="5.0" />-->
+<!--               </VBox.margin>-->
+<!--            </Label>-->
+<!--            <ScrollPane maxWidth="-Infinity" prefHeight="473.0" prefWidth="900.0" styleClass="scroll-pane transparent" stylesheets="@../style.css" translateX="25.0">-->
+<!--               <content>-->
+<!--                  <HBox fx:id="cardLayout" prefHeight="250.0" prefWidth="1397.0" spacing="20.0" styleClass="hbox transparent" />-->
+<!--               </content>-->
+<!--            </ScrollPane>-->
+
+<!--         </children>-->
+<!--      </VBox>-->
+<!--   </children>-->
+<!--</AnchorPane>-->

@@ -1,0 +1,56 @@
+[
+  {
+    "ID": "3788",
+    "name": "Urban Eats",
+    "username": "urbaneats",
+    "password": "adminadmin",
+    "email": "urbaneats@gmail.com",
+    "phone": "(234) 567-8901",
+    "address": "456 Culinary Ave, Dine City"
+  },
+  {
+    "ID": "2001",
+    "name": "The Gourmet Spot",
+    "username": "thegourmetspot",
+    "password": "adminadmin",
+    "email": "gourmetspot@gmail.com",
+    "phone": "(123) 456-7890",
+    "address": "123 Foodie Lane, Flavor Town"
+  },
+  {
+    "ID": "5280",
+    "name": "Ocean Breeze",
+    "username": "oceanbreeze",
+    "password": "adminadmin",
+    "email": "oceanbreeze@gmail.com",
+    "phone": "(345) 678-9012",
+    "address": "789 Seaside Blvd, Coastal Bay"
+  },
+  {
+    "ID": "0722",
+    "name": "Bella Italia",
+    "username": "bellaitalia",
+    "password": "adminadmin",
+    "email": "bellaitalia@gmail.com",
+    "phone": "(567) 890-1234",
+    "address": "202 Pasta St, Little Italy"
+  },
+  {
+    "ID": "7261",
+    "name": "Spice Symphony",
+    "username": "spicesymphony",
+    "password": "adminadmin",
+    "email": "spicesymphony@gmail.com",
+    "phone": "(456) 789-0123",
+    "address": "101 Spice Route, Aroma Town"
+  },
+  {
+    "ID": "3372",
+    "name": "The Green Plate",
+    "username": "greenplate",
+    "password": "adminadmin",
+    "email": "greenplate@gmail.com",
+    "phone": "(234) 567-8901",
+    "address": "456 Culinary Ave, Dine City"
+  }
+]

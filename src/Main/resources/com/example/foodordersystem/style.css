@@ -1,0 +1,93 @@
+
+.sidebar-btn:hover{
+    -fx-border-color:#AD2648;
+    -fx-border-width: 0px 0px 0px 2px;
+}
+
+.hover-text {
+
+    -fx-transition: -fx-text-fill 0.3s ease;
+    }
+
+.hover-text:hover {
+    -fx-text-fill: red;
+}
+
+.transparent {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background: null;
+}
+.hbox {
+    -fx-background-color: transparent;
+}
+
+.boxbg{
+    -fx-background-radius: 15;
+    -fx-background: dropShadow(three-pass-box, rgba(0,0,0,0),10,0,0,10);
+    -fx-background-color: #ad264860;
+}
+.background-primary{
+    /* -fx-background-color: #f3a024; */
+    -fx-background-color: #AD2648;
+}
+.background-secondary{
+    -fx-background-color: #18181a;
+}
+.background-secondary-header{
+    -fx-background-color: #1C1C1E;
+}
+
+.userPic{
+    -fx-background-radius: 30;
+}
+.Button{
+    -fx-background-radius: 30;
+    -fx-background-color: #AD2648;
+    -fx-text-fill: #fff;
+}
+#saveButton{
+    /* -fx-background-color: #f3a024; */
+    -fx-background-color: #AD2648;
+}
+#backButton{
+    -fx-background-color: #fff;
+}
+.textField{
+    -fx-background-color: #f3a02400;
+    /* -fx-text-fill: #f3a024;
+    -fx-border-color: #f3a024; */
+    -fx-text-fill: #AD2648;
+    -fx-border-color: #AD2648;
+    -fx-background-radius: 15;
+    -fx-border-width: 0 0 2 0;
+}
+.selectedBorder{
+    -fx-border-color: rgb(255, 249, 242);
+    -fx-border-width: 0 3 0 0;
+}
+.selected:hover{
+    -fx-background-color: rgba(255, 249, 242, 0.377);
+}
+#topPanel{
+}
+#paymentDetails{
+    -fx-border-color: #ad264848;
+    -fx-border-width: 2;
+    -fx-background-color: #00000000;
+}
+#scrollbar{
+    -fx-background-color: #AD2648;
+}
+.text{
+    -fx-text-fill: #AD2648;
+}
+.mainButtons{
+    -fx-background-color: #AD2648;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 30;
+}

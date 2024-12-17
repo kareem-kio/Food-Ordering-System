@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" styleClass="background-secondary" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodordersystem.UserController">
+   <children>
+      <ImageView fitHeight="547.0" fitWidth="640.0" layoutX="598.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/pizza.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="loginButton" layoutX="319.0" layoutY="334.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="72.0" prefWidth="564.0" style="-fx-background-radius: 15;" styleClass="mainButtons" text="Login">
+         <font>
+            <Font name="Berlin Sans FB" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="signupButton" layoutX="470.0" layoutY="456.0" mnemonicParsing="false" onAction="#handleSignupButtonAction" prefHeight="42.0" prefWidth="265.0" style="-fx-background-radius: 15;" styleClass="mainButtons" text="Signup">
+         <font>
+            <Font name="Berlin Sans FB" size="32.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="258.0" layoutY="84.0" prefHeight="106.0" prefWidth="709.0" styleClass="text" text="Food Ordering System" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="68.0" />
+         </font>
+      </Label>
+      <Button fx:id="toAdmin" layoutX="1108.0" layoutY="655.0" mnemonicParsing="false" onAction="#handleToAdminButtonAction" prefHeight="26.0" prefWidth="70.0" style="-fx-background-radius: 15;" styleClass="Button" text="To Admin">
+         <font>
+            <Font name="Berlin Sans FB" size="11.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="258.0" layoutY="164.0" prefHeight="106.0" prefWidth="709.0" styleClass="text" text="Users" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="60.0" />
+         </font>
+      </Label>
+      <ImageView blendMode="LIGHTEN" fitHeight="493.0" fitWidth="573.0" layoutX="-196.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/burger.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

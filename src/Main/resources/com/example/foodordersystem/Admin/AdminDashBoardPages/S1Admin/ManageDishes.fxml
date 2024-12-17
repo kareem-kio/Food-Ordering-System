@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="638.0" prefWidth="950.0" styleClass="background-secondary" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodordersystem.ManageDishesController">
+   <children>
+      <VBox prefHeight="638.0" prefWidth="950.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="132.0" prefWidth="995.0">
+               <children>
+                  <Label styleClass="text" text="Manage Dishes">
+                     <font>
+                        <Font size="65.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ScrollPane id="paymentDetails" hbarPolicy="NEVER" prefHeight="516.0" prefWidth="950.0" style="-fx-border-width: 2 0 2 0;">
+               <content>
+                  <HBox prefHeight="706.0" prefWidth="936.0">
+                     <children>
+                        <!-- Set this VBox's fx:id to dishesVbox -->
+                        <VBox fx:id="dishesVbox" prefWidth="500.0" />
+                        <VBox fx:id="cartItem2Field" prefWidth="500.0" />
+                     </children>
+                  </HBox>
+               </content>
+            </ScrollPane>
+
+         </children>
+      </VBox>
+   </children>
+   <stylesheets>
+<!--      <URL value="@../style.css" />-->
+      <URL value="@../../../style.css" />
+   </stylesheets>
+</AnchorPane>

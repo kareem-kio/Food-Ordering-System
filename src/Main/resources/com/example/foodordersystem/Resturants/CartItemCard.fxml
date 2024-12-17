@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="127.0" prefWidth="771.0" styleClass="background-secondary" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodordersystem.Resturants.CartItemController">
+   <children>
+      <HBox prefHeight="127.0" prefWidth="834.0">
+         <children>
+            <ImageView fx:id="cartimgField" fitHeight="127.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-radius: 30;">
+               <image>
+                  <Image url="@../../../../images/pizza.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="127.0" prefWidth="756.0">
+               <children>
+                  <VBox prefHeight="127.0" prefWidth="455.0">
+                     <children>
+                        <Label prefHeight="39.0" prefWidth="272.0" styleClass="text" text="Order Type:">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="45.0" prefWidth="288.0" styleClass="text" text="Customization:">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="46.0" prefWidth="298.0" styleClass="text" text="Price:">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding>
+                  </VBox>
+                  <VBox prefHeight="127.0" prefWidth="753.0">
+                     <children>
+                        <Label fx:id="ordernameField" prefHeight="40.0" prefWidth="454.0" styleClass="text" />
+                        <Label fx:id="customizationField" prefHeight="43.0" prefWidth="498.0" styleClass="text" />
+                        <Label fx:id="cartitempriceField" prefHeight="45.0" prefWidth="527.0" styleClass="text" />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="127.0" prefWidth="169.0">
+               <children>
+                  <Button fx:id="addButton" mnemonicParsing="false" onAction="#handleaddButton"  prefHeight="0.0" prefWidth="0.0" styleClass="Button" text="+">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label fx:id="quantityField" style="-fx-background-color: transparent; -fx-background-radius: 10;" styleClass="text" text="x10">
+                     <font>
+                        <Font name="System Bold Italic" size="25.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </padding>
+                  </Label>
+                  <Button fx:id="removeButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleremoveButton" prefHeight="0.0" prefWidth="38.0" styleClass="Button" text="-">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="15.0" top="15.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" styleClass="background-secondary" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodordersystem.Resturants.SearchedDishesController">
+   <children>
+      <BorderPane prefHeight="700.0" prefWidth="1200.0" stylesheets="@../style.css">
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="15.0" styleClass="background-secondary" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="702.0" prefWidth="911.0">
+                     <children>
+                        <HBox id="topPanel" alignment="CENTER" prefHeight="171.0" prefWidth="911.0">
+                           <padding>
+                              <Insets top="20.0" />
+                           </padding>
+                           <children>
+                              <Label id="0" prefHeight="54.0" prefWidth="376.0" styleClass="text" text="Searched Dishes" textFill="#f3a024">
+                                 <font>
+                                    <Font name="Arial Bold" size="46.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="566.0" prefWidth="1200.0">
+                           <children>
+                              <VBox fx:id="vb1" prefHeight="549.0" prefWidth="617.0" />
+                              <VBox fx:id="vb2" prefHeight="549.0" prefWidth="606.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" styleClass="background-secondary" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodordersystem.UserLoginController">
+    <children>
+        <Label alignment="CENTER" layoutX="453.0" layoutY="63.0" prefHeight="96.0" prefWidth="330.0" styleClass="text" text="Login" textAlignment="CENTER" textFill="#fee715">
+            <font>
+                <Font name="Berlin Sans FB" size="66.0" />
+            </font>
+        </Label>
+        <Label layoutX="86.0" layoutY="232.0" prefHeight="74.0" prefWidth="199.0" styleClass="text" text="UserName" textFill="#fee715">
+            <font>
+                <Font name="Berlin Sans FB" size="40.0" />
+            </font>
+        </Label>
+        <Label layoutX="86.0" layoutY="372.0" prefHeight="74.0" prefWidth="199.0" styleClass="text" text="Password" textFill="#fee715">
+            <font>
+                <Font name="Berlin Sans FB" size="40.0" />
+            </font>
+        </Label>
+        <Button fx:id="loginButton" layoutX="404.0" layoutY="542.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="94.0" prefWidth="429.0" styleClass="mainButtons" text="Login">
+            <font>
+                <Font name="Berlin Sans FB" size="53.0" />
+            </font>
+        </Button>
+        <ImageView fx:id="backButton" fitHeight="56.0" fitWidth="65.0" layoutX="76.0" layoutY="83.0" onMouseClicked="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../images/back.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="usernameField" layoutX="309.0" layoutY="256.0" prefHeight="42.0" prefWidth="618.0" styleClass="textField">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font></TextField>
+        <TextField fx:id="passwordField" layoutX="306.0" layoutY="386.0" prefHeight="42.0" prefWidth="621.0" styleClass="textField">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font></TextField>
+    </children>
+</AnchorPane>

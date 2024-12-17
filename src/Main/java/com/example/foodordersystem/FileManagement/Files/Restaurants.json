@@ -1,0 +1,452 @@
+[
+  {
+    "ID": "8825",
+    "name": "Urban Eats",
+    "address": "456 Culinary Ave, Dine City",
+    "phone": "(234) 567-8901",
+    "rating": 0.0,
+    "menu": {
+      "dishes": [
+        {
+          "name": "BBQ Burger",
+          "price": 10.99,
+          "cost": 6.9,
+          "description": "Juicy beef patty topped with BBQ sauce, onion rings, and cheddar cheese.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Chicken Wings",
+          "price": 111.0,
+          "cost": 6.9,
+          "description": "Crispy fried wings served with your choice of sauce: Buffalo, BBQ, or Honey Garlic.",
+          "image": "None",
+          "rating": 4.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Veggie Wrap",
+          "price": 7.49,
+          "cost": 6.9,
+          "description": "A healthy wrap filled with fresh vegetables, hummus, and feta cheese.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Loaded Nachos",
+          "price": 9.5,
+          "cost": 6.9,
+          "description": "Tortilla chips topped with melted cheese, jalapeÃ±o, and sour cream.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Apple Pie",
+          "price": 5.99,
+          "cost": 3.3,
+          "description": "Classic apple pie served warm with a scoop of vanilla ice cream.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        }
+      ]
+    },
+    "reviews": [],
+    "months": [],
+    "day": [],
+    "year": []
+  },
+  {
+    "ID": "3951",
+    "name": "The Gourmet Spot",
+    "address": "123 Foodie Lane, Flavor Town",
+    "phone": "(123) 456-7890",
+    "rating": 0.0,
+    "menu": {
+      "dishes": [
+        {
+          "name": "Grilled Salmon",
+          "price": 15.99,
+          "cost": 5.5,
+          "description": "Fresh Atlantic salmon grilled to perfection, served with a lemon butter sauce.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Caesar Salad",
+          "price": 7.99,
+          "cost": 5.5,
+          "description": "Crisp romaine lettuce, parmesan cheese, and house-made Caesar dressing.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Margherita Pizza",
+          "price": 12.5,
+          "cost": 5.5,
+          "description": "Classic pizza topped with fresh mozzarella, basil, and tomato sauce.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Mushroom Risotto",
+          "price": 13.75,
+          "cost": 5.5,
+          "description": "Creamy risotto cooked with wild mushrooms and truffle oil.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Chocolate Lava Cake",
+          "price": 6.5,
+          "cost": 5.5,
+          "description": "Rich chocolate cake with a gooey molten center, served with vanilla ice cream.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        }
+      ]
+    },
+    "reviews": [],
+    "months": [],
+    "day": [],
+    "year": []
+  },
+  {
+    "ID": "7381",
+    "name": "Ocean Breeze",
+    "address": "789 Seaside Blvd, Coastal Bay",
+    "phone": "(345) 678-9012",
+    "rating": 0.0,
+    "menu": {
+      "dishes": [
+        {
+          "name": "Shrimp Tacos",
+          "price": 11.25,
+          "cost": 3.5,
+          "description": "Spicy shrimp served in soft tortillas with a tangy slaw.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Clam Chowder",
+          "price": 6.99,
+          "cost": 3.5,
+          "description": "Creamy New England-style clam chowder made with fresh clams.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Fish and Chips",
+          "price": 13.99,
+          "cost": 3.5,
+          "description": "Crispy battered fish served with golden fries and tartar sauce.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Lobster Roll",
+          "price": 18.5,
+          "cost": 3.5,
+          "description": "Fresh lobster meat served in a buttered roll with a touch of mayo.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Key Lime Pie",
+          "price": 5.75,
+          "cost": 3.5,
+          "description": "Tart and creamy key lime pie with a graham cracker crust.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        }
+      ]
+    },
+    "reviews": [],
+    "months": [],
+    "day": [],
+    "year": []
+  },
+  {
+    "ID": "1354",
+    "name": "Bella Italia",
+    "address": "202 Pasta St, Little Italy",
+    "phone": "(567) 890-1234",
+    "rating": 0.0,
+    "menu": {
+      "dishes": [
+        {
+          "name": "Spaghetti Carbonara",
+          "price": 13.99,
+          "cost": 4.1,
+          "description": "Classic pasta dish made with eggs, cheese, pancetta, and pepper.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Lasagna Bolognese",
+          "price": 15.75,
+          "cost": 4.1,
+          "description": "Layers of pasta, meat sauce, and cheese baked to perfection.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Caprese Salad",
+          "price": 8.5,
+          "cost": 4.1,
+          "description": "Fresh mozzarella, tomatoes, and basil drizzled with olive oil.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Tiramisu",
+          "price": 6.99,
+          "cost": 4.1,
+          "description": "Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cream.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Minestrone Soup",
+          "price": 5.99,
+          "cost": 4.1,
+          "description": "Hearty vegetable soup with beans and pasta.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        }
+      ]
+    },
+    "reviews": [],
+    "months": [],
+    "day": [],
+    "year": []
+  },
+  {
+    "ID": "6042",
+    "name": "Spice Symphony",
+    "address": "101 Spice Route, Aroma Town",
+    "phone": "(456) 789-0123",
+    "rating": 0.0,
+    "menu": {
+      "dishes": [
+        {
+          "name": "Butter Chicken",
+          "price": 14.99,
+          "cost": 2.6,
+          "description": "Tender chicken cooked in a creamy tomato-based curry sauce.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Paneer Tikka",
+          "price": 12.99,
+          "cost": 2.6,
+          "description": "Marinated and grilled paneer cubes served with mint chutney.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Lamb Biryani",
+          "price": 16.5,
+          "cost": 2.6,
+          "description": "Fragrant basmati rice cooked with tender lamb and aromatic spices.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Garlic Naan",
+          "price": 3.99,
+          "cost": 2.6,
+          "description": "Soft and fluffy Indian bread topped with garlic and butter.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Gulab Jamun",
+          "price": 4.5,
+          "cost": 2.6,
+          "description": "Sweet milk-based dumplings soaked in rose-flavored syrup.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        }
+      ]
+    },
+    "reviews": [],
+    "months": [],
+    "day": [],
+    "year": []
+  },
+  {
+    "ID": "7373",
+    "name": "The Green Plate",
+    "address": "303 Wellness Way, Healthyville",
+    "phone": "(678) 901-2345",
+    "rating": 0.0,
+    "menu": {
+      "dishes": [
+        {
+          "name": "Avocado Toast",
+          "price": 7.99,
+          "cost": 2.3,
+          "description": "Toasted sourdough topped with mashed avocado and a sprinkle of chili flakes.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Quinoa Bowl",
+          "price": 10.5,
+          "cost": 2.3,
+          "description": "A nutritious bowl filled with quinoa, roasted vegetables, and a tahini drizzle.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Lentil Soup",
+          "price": 6.25,
+          "cost": 2.3,
+          "description": "Comforting soup made with lentils, tomatoes, and aromatic spices.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Stuffed Bell Peppers",
+          "price": 9.99,
+          "cost": 2.3,
+          "description": "Bell peppers stuffed with rice, beans, and herbs.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        },
+        {
+          "name": "Vegan Brownie",
+          "price": 4.5,
+          "cost": 2.3,
+          "description": "Decadent chocolate brownie made with plant-based ingredients.",
+          "image": "None",
+          "rating": 0.0,
+          "SoldDaily": {},
+          "SoldMonthly": {},
+          "SoldYearly": {},
+          "reviews": []
+        }
+      ]
+    },
+    "reviews": [],
+    "months": [],
+    "day": [],
+    "year": []
+  }
+]
