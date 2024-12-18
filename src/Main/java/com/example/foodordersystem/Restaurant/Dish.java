@@ -15,6 +15,7 @@ public class Dish{
     private String description;
     private String image;
     private double rating = 0.0;
+    private double timeNeededforDelivery;
     private HashMap<LocalDate, Integer> SoldDaily;
     private HashMap<YearMonth,Integer> SoldMonthly;
     private HashMap<Integer,Integer> SoldYearly;
