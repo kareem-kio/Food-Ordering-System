@@ -45,6 +45,11 @@ public class CartItem {
     public String getCustomization() {
         return customization;
     }
+    public double getTimeNeededforDelivery()
+    {
+        //random number
+        return dish.getTimeNeededforCooking()*(Math.log(quantity+1)+0.8);
+    }
 //    public void updateCartItemStock(){
 //        dish.setStock(dish.getStock() - this.quantity); //existing stock - ordered quantity = new stock
 //    }
