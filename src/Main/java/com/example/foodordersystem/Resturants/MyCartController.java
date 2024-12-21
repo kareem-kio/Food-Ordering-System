@@ -5,7 +5,7 @@ import com.example.foodordersystem.Accounts.Cart.Cart;
 import com.example.foodordersystem.Accounts.Cart.CartItem;
 import com.example.foodordersystem.Accounts.User;
 import com.example.foodordersystem.PaymentSystem.Payment;
-import com.example.foodordersystem.PaymentSystem.PaymentGateway;
+import com.example.foodordersystem.PaymentSystem.Order;
 import com.example.foodordersystem.PaymentSystem.PaymentsManager;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

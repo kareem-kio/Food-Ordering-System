@@ -33,13 +33,5 @@ public class HelloApplication extends Application {
         FileManager.printRestaurantData();
         launch();
         FileManager.writeAllJSON();
-
-
-
-
-
-
-
-
     }
 }

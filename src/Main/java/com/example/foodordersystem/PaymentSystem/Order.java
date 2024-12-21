@@ -2,16 +2,8 @@ package com.example.foodordersystem.PaymentSystem;
 import com.example.foodordersystem.Accounts.AccountsManager;
 import com.example.foodordersystem.Accounts.User;
 import com.example.foodordersystem.Accounts.Cart.CartItem;
-import com.example.foodordersystem.Restaurant.All_Restaurants;
-import com.example.foodordersystem.Restaurant.Dish;
-import com.example.foodordersystem.Restaurant.Restaurant;
 
-import java.time.LocalDate;
-import java.time.Year;
-import java.time.YearMonth;
-import java.util.Objects;
-
-public class PaymentGateway {
+public class Order {
 
     //CONTAINS FUNCTIONALITY OF MAKING A PAYMENT//
     //EACH GATEWAY CONTAINS ONE PERMANENT PAYMENT CLASS AS FIELD//
@@ -27,7 +19,7 @@ public class PaymentGateway {
     //#Constructor//
 
     //Instantiating a gateway will instantiate a PaymentSystem.Payment object instantly
-    public PaymentGateway(String ID){
+    public Order(String ID){
         payment = new Payment(ID); //Constructor values set to default (Use payment setters to change)
         this.userID = ID; //identifies the owner of this gateway (the user who instantiated it)
     }

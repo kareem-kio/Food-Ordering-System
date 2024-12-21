@@ -25,11 +25,11 @@ public class Main {
         User user3 = new User("Azad","shialover","IloveJava","balls@gmail.com","+201552715358","Tahran");
         AccountsManager.AddUser(user3);
 
-//        PaymentGateway p1 = new PaymentGateway();
-//        PaymentGateway p2 = new PaymentGateway();
-//        PaymentGateway p3 = new PaymentGateway();
-//        PaymentGateway p4 = new PaymentGateway();
-//        PaymentGateway p5 = new PaymentGateway();
+//        Order p1 = new Order();
+//        Order p2 = new Order();
+//        Order p3 = new Order();
+//        Order p4 = new Order();
+//        Order p5 = new Order();
 //
 //        p1.Checkout(d1);
 //

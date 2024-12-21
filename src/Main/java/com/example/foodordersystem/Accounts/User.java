@@ -3,16 +3,14 @@ package com.example.foodordersystem.Accounts;
 import com.example.foodordersystem.Accounts.Cart.Cart;
 import com.example.foodordersystem.Accounts.Cart.CartItem;
 import com.example.foodordersystem.PaymentSystem.Payment;
-import com.example.foodordersystem.PaymentSystem.PaymentGateway;
+import com.example.foodordersystem.PaymentSystem.Order;
 import com.example.foodordersystem.Restaurant.Dish;
-
-import java.util.Objects;
 
 public class User extends Account {
     private Cart cart;
     private float balance;
     private float totalOfOrders;
-    public PaymentGateway PG;
+    public Order PG;
     public void setBalance(float balance) {
         this.balance = balance;
     }
@@ -25,7 +23,7 @@ public class User extends Account {
         super(name,username,password,email,phone,address);
         System.out.println("USER IS CREATED");
         this.cart = new Cart();
-        PG = new PaymentGateway(this.getID());
+        PG = new Order(this.getID());
     }
     public boolean Login(String username, String password) {
         User foundUser = AccountsManager.authSearchUsers(username, password);
