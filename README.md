@@ -74,5 +74,5 @@ It offers users a **convenient and efficient** way to:
 
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/your-username/Food-Ordering.git
+   git clone https://github.com/kareem-kio/Food-Ordering-System
    cd Food-Ordering
